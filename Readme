@@ -1,0 +1,21 @@
+# Essentials for batch and bash
+## Batch
+```batch
+ :: Create a variable named name
+ Set name= Script-kiddie
+ echo %name%
+```
+The output is as follows
+```
+Script-kiddie
+```
+## Bash
+```shell
+ :: Create a variable named name
+ name= Script-kiddie
+ echo $name
+```
+The output is as follows
+```
+Script-kiddie
+```
